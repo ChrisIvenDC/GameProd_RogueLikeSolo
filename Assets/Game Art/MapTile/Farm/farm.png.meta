@@ -1,0 +1,393 @@
+fileFormatVersion: 2
+guid: 7de891e4c3f876244b14b8fe348a09f4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6437738476519406127
+    second: farm_0
+  - first:
+      213: 8836665305803980907
+    second: farm_1
+  - first:
+      213: -7578850262021212725
+    second: farm_2
+  - first:
+      213: 6739786818209962979
+    second: farm_3
+  - first:
+      213: 882327504895074535
+    second: farm_4
+  - first:
+      213: -8548538983849683975
+    second: farm_5
+  - first:
+      213: 9154543244495400296
+    second: farm_6
+  - first:
+      213: -8248799315137137153
+    second: farm_7
+  - first:
+      213: -7853292734173361170
+    second: farm_8
+  - first:
+      213: 2390034102588279115
+    second: farm_9
+  - first:
+      213: 602423991816360003
+    second: farm_10
+  - first:
+      213: 832309322092430053
+    second: farm_11
+  - first:
+      213: 4946353434437180196
+    second: farm_12
+  - first:
+      213: 4106405345303639171
+    second: farm_13
+  - first:
+      213: -6441938177361405236
+    second: farm_14
+  - first:
+      213: 775428039851509267
+    second: farm_15
+  - first:
+      213: 2773594431492414850
+    second: farm_16
+  - first:
+      213: -6700661842530613261
+    second: farm_17
+  - first:
+      213: 8586707783417799771
+    second: farm_18
+  - first:
+      213: 4991576305650772685
+    second: farm_19
+  - first:
+      213: 3747807180396074450
+    second: farm_20
+  - first:
+      213: -8509803837816330564
+    second: farm_21
+  - first:
+      213: -7103397776565377846
+    second: farm_22
+  - first:
+      213: 7279188964430937554
+    second: farm_23
+  - first:
+      213: 5684568445186013223
+    second: farm_24
+  - first:
+      213: 4772640098754010976
+    second: farm_25
+  - first:
+      213: 2343233071787458938
+    second: farm_26
+  - first:
+      213: -3059911562242758491
+    second: farm_27
+  - first:
+      213: 6204836750110322616
+    second: farm_28
+  - first:
+      213: 8044655542885010533
+    second: farm_29
+  - first:
+      213: -5378760277961674783
+    second: farm_30
+  - first:
+      213: -4240480613535668766
+    second: farm_31
+  - first:
+      213: -5424836566178438255
+    second: farm_32
+  - first:
+      213: 197825870719068318
+    second: farm_33
+  - first:
+      213: 6820000243568185674
+    second: farm_34
+  - first:
+      213: -6346700127855100061
+    second: farm_35
+  - first:
+      213: 5739560812353120491
+    second: farm_36
+  - first:
+      213: 27005128035038998
+    second: farm_37
+  - first:
+      213: -8976850419404640104
+    second: farm_38
+  - first:
+      213: 326218289609861088
+    second: farm_39
+  - first:
+      213: 257956417869379679
+    second: farm_40
+  - first:
+      213: -9003907709913027689
+    second: farm_41
+  - first:
+      213: 8368857107784087160
+    second: farm_42
+  - first:
+      213: -2174566510427558746
+    second: farm_43
+  - first:
+      213: -8310199217088738588
+    second: farm_44
+  - first:
+      213: -9219291475810278201
+    second: farm_45
+  - first:
+      213: -669180402258287327
+    second: farm_46
+  - first:
+      213: -5366669470740780954
+    second: farm_47
+  - first:
+      213: 643226341590923094
+    second: farm_48
+  - first:
+      213: 1728969175981226365
+    second: farm_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: farm_5
+      rect:
+        serializedVersion: 2
+        x: 1663
+        y: 2968
+        width: 656
+        height: 603
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f39f07161d7d5980800000000000000
+      internalID: -8548538983849683975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm_19
+      rect:
+        serializedVersion: 2
+        x: 1673
+        y: 2588
+        width: 247
+        height: 271
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dca22971434a54540800000000000000
+      internalID: 4991576305650772685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm_1
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 1688
+        width: 1201
+        height: 630
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa55270d72d96843807878162b12291
+      internalID: 272314117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm_2
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 2358
+        width: 1286
+        height: 663
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70b08191e748faf4f98a72572f328f55
+      internalID: -1283690348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: farm_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3054
+        width: 1578
+        height: 612
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ddfb276c4661247b7f0e7756fe0cce
+      internalID: 952152714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 4bc652b18ad2b27498335721033b224d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      farm_0: 952152714
+      farm_1: 272314117
+      farm_2: -1283690348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
