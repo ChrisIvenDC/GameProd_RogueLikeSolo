@@ -34,7 +34,7 @@ public class CardManager : MonoBehaviour
         if (playerLevelingup.anyCardIsClicked)
         {
             Debug.Log("OneCardLeveled Up");
-            cards[playerLevelingup.chosenCard].GetComponent<ChosenCardEventHandler>().Lvl++;
+            cards[playerLevelingup.chosenCard].GetComponent<ChosenCardEventHandler>().cardLeveledUp = true;
             playerLevelingup.anyCardIsClicked = false;
         }
     }

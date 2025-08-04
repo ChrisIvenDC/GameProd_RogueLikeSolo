@@ -12,6 +12,8 @@ public class CharacterMovement : MonoBehaviour
     public LayerMask groundLayer;
     private bool isFacingLeft = false;
     private bool isJumping;
+    public int maxJump;
+    int currentJump = 0;
     bool grounded;
 
     PlayerXP playerXP;
@@ -31,14 +33,20 @@ public class CharacterMovement : MonoBehaviour
         {
             horizontalInput = Input.GetAxis("Horizontal");
 
-            if (Input.GetButtonDown("Jump") && isGrounded())
+            if (Input.GetButtonDown("Jump"))
             {
-                animator.SetBool("isGrounded", false);
-                rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpHeight);
+                if (isGrounded() || currentJump < maxJump)
+                {
+                    currentJump++;
+                    animator.SetBool("isGrounded", false);
+                    rb.linearVelocity = new Vector2(rb.linearVelocityX, jumpHeight);
+                }
+
             }
 
             if (rb.linearVelocityY < 0 && isGrounded())
             {
+                currentJump = 0;
                 animator.SetBool("isGrounded", true);
             }
             FlipSprite();

@@ -10,11 +10,17 @@ public class EnemyUI : MonoBehaviour
     [SerializeField] Slider slider;
     [SerializeField] Camera playerCamera;
     [SerializeField] GameObject tookDamageUI;
+    [SerializeField] EnemyMovement enemyMovement;
     List<GameObject> UILists = new List<GameObject>();
     GameObject UIDamage;
     TMP_Text damageUIText;
 
 
+    private void Awake()
+    {
+/*        playerCamera = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();*/
+        enemyMovement = transform.parent.GetComponent<EnemyMovement>(); 
+    }
     private void FixedUpdate()
     {
 
@@ -30,17 +36,22 @@ public class EnemyUI : MonoBehaviour
         UIDamage = Instantiate(tookDamageUI, this.transform);
         damageUIText = UIDamage.GetComponent<TextMeshProUGUI>();
         damageUIText.text = Mathf.Round(damageAmount).ToString();
-        UILists.Add(UIDamage);
-        Vector3 ls = UIDamage.transform.localScale; 
-        ls.x = Mathf.Abs(ls.x);
-        Destroy(UIDamage, 1f);
 
+
+        if (!enemyMovement.isFacingLeft)
+        {
+            Vector3 ls = UIDamage.transform.localScale;
+            ls.x *= -1f;
+            UIDamage.transform.localScale = ls;
+        }
+
+        UILists.Add(UIDamage);
+        Destroy(UIDamage, 1f);
     }
 
 
     private void Update()
     {
-
         slider.transform.rotation = playerCamera.transform.rotation;
     }
 

@@ -6,7 +6,7 @@ public class EnemyMovement : MonoBehaviour
     Transform playerPos;
     public float movementSpeed;
     float xVelocity, yVelocity;
-    bool isFacingLeft;
+    public bool isFacingLeft;
 
     EnemyAttack enemyAttack;
 
@@ -15,7 +15,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void Awake()
     {
-        playerPos = GameObject.FindGameObjectWithTag("Player").transform; //turn to "Objects" if multiplayer, get closest player or assign a random player per enemy
+        playerPos = GameObject.FindGameObjectWithTag("Player").transform; //turn to "Objects" if multiplayer, get closest player or assign a random player per enemyMask
         playerXP = playerPos.GetComponent<PlayerXP>();
         enemyAttack = this.gameObject.GetComponentInChildren<EnemyAttack>();
         animator = this.GetComponent<Animator>();
@@ -63,6 +63,7 @@ public class EnemyMovement : MonoBehaviour
     {
         if (-xVelocity < 0 && isFacingLeft || -xVelocity > 0 && !isFacingLeft)
         {
+
             isFacingLeft = !isFacingLeft;
             Vector3 ls = transform.localScale;
             ls.x *= -1f;

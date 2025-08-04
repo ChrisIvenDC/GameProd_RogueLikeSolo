@@ -6,7 +6,7 @@ public class PlayerXP : MonoBehaviour
 
     [SerializeField] float xpPercentage;
     public float playerMaxXP, xpMultiplier;
-    [SerializeField]int lvl;
+    public int lvl;
     [SerializeField]float playerXP;
     float excessXP;
     public bool levelingUp;

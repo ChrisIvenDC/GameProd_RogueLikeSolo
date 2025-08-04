@@ -36,7 +36,7 @@ public class EnemyAttack : MonoBehaviour
             animator.SetBool("isHolding", true);
         }
 
-        if(holdTime > maxHoldTimer)
+        if(holdTime > maxHoldTimer) //turn to coroutines
         {
             tookDamage = false;
             isAttacking = true;

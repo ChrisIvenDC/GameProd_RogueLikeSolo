@@ -2,8 +2,22 @@ using UnityEngine;
 
 public class DoubleJump : MonoBehaviour
 {
-    private void OnEnable()
+    ChosenCardEventHandler cardInfo;
+    [SerializeField] CharacterMovement characterMovement;
+
+    private void Awake()
     {
-        Debug.Log("DoubleJump isActive");
+        cardInfo = GetComponent<ChosenCardEventHandler>();
+        characterMovement = transform.parent.transform.parent.GetComponent<CharacterMovement>();
+    }
+    private void Update()
+    {
+        if(cardInfo.cardLeveledUp)
+        {
+            Debug.Log("Maxjump add");
+            cardInfo.Lvl++;
+            characterMovement.maxJump ++;
+            cardInfo.cardLeveledUp = false;
+        }
     }
 }

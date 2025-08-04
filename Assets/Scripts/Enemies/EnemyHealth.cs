@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void Update()
     {
-        EnemyAttackedByPlayerOnce(); //we can make a new script for the enemy taking damage types
+        EnemyAttackedByPlayerOnce(); //we can make a new script for the enemyMask taking damage types
         if (enemyHealth <= 0)
         {
             enemyDeath.isEnemyDead = true;
