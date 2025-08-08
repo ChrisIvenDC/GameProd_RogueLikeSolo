@@ -11,6 +11,8 @@ TagManager:
   - XP
   - Cards
   - UICards
+  - MapSize
+  - SpawnerManager
   layers:
   - Default
   - TransparentFX

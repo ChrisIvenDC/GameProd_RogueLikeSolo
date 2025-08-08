@@ -41,9 +41,9 @@ public class PlayerXP : MonoBehaviour
                 lvl += 1;
                 excessXP = playerXP - playerMaxXP;
                 playerXP = excessXP;
-
                 playerMaxXP = playerMaxXP + (playerMaxXP * 0.2f);
 
+                playerUI.UpdatePlayerXPBar(playerXP, playerMaxXP);
                 xpConverting = false;
             }
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Security.Cryptography;
 using Unity.VisualScripting;
 using Unity.VisualScripting.Antlr3.Runtime.Tree;
-using UnityEditor.ShaderKeywordFilter;
+/*using UnityEditor.ShaderKeywordFilter;*/
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -49,7 +49,7 @@ public class PlayerLevelingUp : MonoBehaviour
         itemsLength = itemParent.transform.childCount -1;
         randomNum = new int[cards.Length];
         cardIsClicked = new bool[cards.Length];
-        Debug.Log("random.length= " + randomNum.Length);
+
 
         panelIsActive = false;
     }

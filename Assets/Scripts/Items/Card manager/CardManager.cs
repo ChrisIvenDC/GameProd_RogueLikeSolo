@@ -21,11 +21,6 @@ public class CardManager : MonoBehaviour
 
     private void Start()
     {
-        Debug.Log(cardCount);
-        for (int i = 0; i < cardCount; i++)
-        {
-            Debug.Log("inCardManager: " + cards[i].name);
-        }
     }
 
     private void Update()

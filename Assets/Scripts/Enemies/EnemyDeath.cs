@@ -11,10 +11,12 @@ public class EnemyDeath : MonoBehaviour
     [SerializeField] PlayerXP playerXP;
     public bool isEnemyDead;
 
+    EnemiesSpawner enemiesSpawner;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     private void Awake()
     {
+        enemiesSpawner = GameObject.FindGameObjectWithTag("SpawnerManager").GetComponent<EnemiesSpawner>();
         playerXP = GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerXP>();
         enemyHealth = GetComponent<EnemyHealth>();
     }
@@ -40,7 +42,7 @@ public class EnemyDeath : MonoBehaviour
                 rb.linearVelocityY = xpJumpHeight;
             }
 
-
+            enemiesSpawner.currentEnemyNum--;
             Destroy(this.gameObject); //object Pooling + add Animation/ Courutines
         }
     }

@@ -7,7 +7,7 @@ using UnityEngine.Rendering.UI;
 public class PlayerAttack : MonoBehaviour
 {
     public bool attacking,attackOnce;
-    public float attackSpeed = 1f;
+    public float attackSpeed;
 
     public float playerAttackDamage;
     public bool attackAnimatorPlayed;

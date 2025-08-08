@@ -55,8 +55,8 @@ public class EnemyMovement : MonoBehaviour
 
     private void FollowPlayer()
     {
-        xVelocity = new Vector2(transform.position.x - playerPos.position.x, 0f).normalized.x;
-        rb.linearVelocity = new Vector2 (-xVelocity * movementSpeed, yVelocity);
+        xVelocity = new Vector2(transform.position.x - playerPos.position.x, yVelocity).normalized.x;
+        rb.linearVelocity = new Vector2 (-xVelocity * movementSpeed, rb.linearVelocityY);
 
     }
     void FlipSprite()

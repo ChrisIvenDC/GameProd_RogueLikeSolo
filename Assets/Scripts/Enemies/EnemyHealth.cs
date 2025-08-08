@@ -16,11 +16,11 @@ public class EnemyHealth : MonoBehaviour
     {
         playerAttack = GameObject.FindGameObjectWithTag("PlayerAttack").GetComponent<PlayerAttack>();
         enemyDeath = GetComponent<EnemyDeath>();    
-        enemyUI = GetComponentInChildren<EnemyUI>();
+        enemyUI = GetComponent<EnemyUI>();
     }
 
     private void Update()
-    {
+    { 
         EnemyAttackedByPlayerOnce(); //we can make a new script for the enemyMask taking damage types
         if (enemyHealth <= 0)
         {
@@ -40,8 +40,9 @@ public class EnemyHealth : MonoBehaviour
     public void EnemyTakeDamage(float damageValue)
     {
         enemyHealth -= damageValue;
-        enemyUI.UpdateEnemyDamageTook(damageValue);
         enemyUI.UpdateEnemyHealthBar(enemyHealth, enemyMaxHealth);
+        enemyUI.UpdateEnemyDamageTook(damageValue);
+
     }
 
     private void EnemyAttackedByPlayerOnce()
